@@ -2,7 +2,7 @@
 # Get Started
 1. Please complete [Below assesment](#lwc-and-integration-challenge) upto best of your efforts. Follow the instructions carefully.
 
-## Please login to project using button below. It is a cloud eenvironment with all wheels installed to get started
+## Please login to project using button below. It is a cloud environment with all wheels installed to get started
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://contrivers-interview-ck7tsvvc48v.ws-us54.gitpod.io//)
 1. Once the terminal pops up, just execute
