@@ -1,24 +1,52 @@
 
 # Get Started
-1. Please complete [Below assesment](#lwc-and-integration-challenge) upto best of your efforts. Follow the instructions below to complete the assesment
-[![Open Project](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://gitlab.com/contrivers/interview.git)
-2. Don`t stress out to complete. Focus on MUST HAVE, NICE TO HAVE is optional, feel free to complete that too, if you can
-3. For any queries related to assesment or clarifcation required [send your queries by clicking here](mailto:tech-assesment-aaaag6vrkwp4er4dwy4aaqvk5i@contrivers.slack.com)
+1. Please complete [Below assesment](#lwc-and-integration-challenge) upto best of your efforts. Follow the instructions carefully.
+
+## Please login to project using button below. It is a cloud eenvironment with all wheels installed to get started
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://contrivers-interview-ck7tsvvc48v.ws-us54.gitpod.io//)
+1. Once the terminal pops up, just execute
+```bash
+sh login.sh
+```
+
+# you can clonee this repo and use your local sfdx if configured already 
+
+do it locall by cloning and later pushing code to the repository again. You have been invited to gitlab repository so that you can push your work to repo and submit the assesment when you are ready.
+
+# Guideline
+> **VERY IMPORTANT**
+>- This Assignment should be completed ONLY in the scratch org that is provided. << Your email >>.json file has sfdxauth url to log you in. steps are also inlined below
+
+1. Don`t stress out to complete. Focus on MUST HAVE, its mandotory. NICE TO HAVE is optional, feel free to complete that too, if you can.
+2. For any queries related to assesment or clarifcation required [send your queries to](mailto:tech-assesment-aaaag6vrkwp4er4dwy4aaqvk5i@contrivers.slack.com) tech-assesment-aaaag6vrkwp4er4dwy4aaqvk5i@contrivers.slack.com
+or
+[Join Slack](https://join.slack.com/share/enQtMzg0MTQyNjY0NjY0MS0wZjc4MjQ0NzE4MGExYzU5MzNiMDM2ZDAwYjM3ZjhhYzEwN2Y2YWIyYjBkOTczOTgzM2NlMTY2NTA1NjI3NTU3) channel to ask
 4. When we meet for face to face technical round, we will take this assesment as base and continue discussion from there
+5. Please make sure to commit and push to the repo once assesment complete. use conclude.sh script
+6. This assignment should be complete in the org created for you. It is 
 ## All the best! Give your best shot. Looking forward to meet you soon!!
+> **IMPORTANT**
+>- you will get access to the scratch org which have will expire witihng 30 days. Keep pushing your codebase to remote repo so as not to loose your work.
 
-
-> **How to login to org**
+> **How to login to org - ONLY If doing it locally in your vscode setup. Skip this if you are doing GitPod button above**
 >- clone the project locally in vscode
->- the file <<YOUR_EM<AIL.json>> has sfdxauth url that can be used to login
+>- the file in this repo <<YOUR_EMAIL.json>> has sfdxauth url that can be used to login
 >- sh login.sh
-
 ```javascript
 sfdx force:auth:sfdxurl:store -f <<your_email>>.json
 ```
 or
 ```javascript
 sh login.sh
+```
+> **How to submit the assesment**
+>- commit the changes with commit message -"Assesement DONE!" & push to repo or notify us via email after pushing your changes
+>- the local branch would have created interview/<<< YOUR EMAIL>>>
+>- sh conclude.sh
+
+```javascript
+sh conclude.sh
 ```
 
 # LWC and Integration Challenge
